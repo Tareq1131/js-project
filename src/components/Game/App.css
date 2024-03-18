@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .new-game-button {
+    margin-top: 20px;
+  }
+  
